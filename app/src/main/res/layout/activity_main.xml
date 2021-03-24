@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:translationX="180dp"
+        android:translationY="150dp"
+        android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in to Twitter"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:translationX="100dp"
+            android:translationY="230dp"/>
+
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:text="  Username"
+        android:translationX="60dp"
+        android:translationY="300dp"
+        android:background="@drawable/shape1"/>
+
+
+    <EditText
+        android:id="@+id/txtkatasandi"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:text="  Kata Sandi"
+        android:translationX="60dp"
+        android:translationY="370dp"
+        android:background="@drawable/shape1"/>
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#A12196F3"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="60dp"
+        android:translationY="450dp"
+        app:cornerRadius="400px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lupa kata sandi? . Mendaftar ke Twitter"
+        android:textColor="#2196F3"
+        android:translationX="87dp"
+        android:translationY="550dp"/>
+
+
+</RelativeLayout>
